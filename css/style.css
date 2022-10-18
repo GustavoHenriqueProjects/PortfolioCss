@@ -9,41 +9,50 @@ body{
     color: #fff;
     background-color: black;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header{
+    
+    place-self: start center;
     grid-area: content;
-    height: 100px;
-    background-color:#0008;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 48px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main{
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 section{
     height: 100vh;
-    background-color: tomato;
+    background-color: black;
 }
 
-.home{
-    background-color: lightblue;
-}
-
-.sobre-min{
-    background-color: lightgreen;
-}
 
 .projetos{
     background-color: lightsalmon;
+    width: 100%;
 }
 
 .contato{
     background-color: limegreen;
+    width: 100%;
 }
 
 footer{
+    place-self: end center;
     grid-area: content;
     height: 100px;
+    width: 100%;
     background-color: black;
 }
