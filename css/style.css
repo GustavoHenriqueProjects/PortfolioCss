@@ -1,0 +1,49 @@
+:root{
+    --primary-color:#FEDC00;
+    --primery-color: #252525;
+}
+body{
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+header{
+    grid-area: content;
+    height: 100px;
+    background-color:#0008;
+}
+
+main{
+    grid-area: content;
+
+}
+
+section{
+    height: 100vh;
+    background-color: tomato;
+}
+
+.home{
+    background-color: lightblue;
+}
+
+.sobre-min{
+    background-color: lightgreen;
+}
+
+.projetos{
+    background-color: lightsalmon;
+}
+
+.contato{
+    background-color: limegreen;
+}
+
+footer{
+    grid-area: content;
+    height: 100px;
+    background-color: black;
+}
