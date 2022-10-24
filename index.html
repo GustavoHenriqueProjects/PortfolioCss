@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/52cd6710a1.js" crossorigin="anonymous"></script>
     <link  rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,9 @@
     <link rel="stylesheet"  href="./css/menu.css">
     <link rel="stylesheet"  href="./css/home.css">
     <link rel="stylesheet"  href="./css/sobre-min.css">
+    <link rel="stylesheet"  href="./css/projetos.css">
+    <link rel="stylesheet"  href="./css/contato.css">
+
     <script src="https://kit.fontawesome.com/52cd6710a1.js" crossorigin="anonymous"></script>
     <title>Portfolio - Gustavo Henrique</title>
 </head>
@@ -39,6 +43,9 @@
        </nav>
     </header>
     <main>
+        <a href="#" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section class="home" id="home">
             <img src="./css/img/Ellipse.png" alt="foto" class="home__photo">
             <div>
@@ -53,8 +60,10 @@
             <div class="description">
                 <h3 class="description__title">Quem sou?</h3>
                 <p class="description__text">
-                    Sou iniciante na área de criação e manutenção de sites, tenho conhecimento de prototipação e designer sempre pensando na experiência do usuário.                 Sou apaixonado pelo mundo digital e principalmente desenvolvimento,
-                    sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.
+                    Sou iniciante na área de criação e manutenção de sites, tenho conhecimento de prototipação e designer sempre pensando na experiência do usuário. 
+                </p>
+                <p class="description__text">
+                    Sou apaixonado pelo mundo digital.
                 </p>
             </div>
             <div class="skills">
@@ -65,30 +74,121 @@
                         <span>HTML</span>
                     </div>
                     <div class="skills__icon">
-                        <i class="fab fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
                         <span>CSS</span>
                     </div>
                     <div class="skills__icon">
-                        <i class="fab fa-html5"></i>
+                        <i class="fa-brands fa-js"></i>
                         <span>JS</span>
                     </div>
                     <div class="skills__icon">
-                        <i class="fab fa-html5"></i>
+                        <i class="fa-brands fa-github"></i>
                         <span>GITHUB</span>
                     </div>
                     <div class="skills__icon">
-                        <i class="fab fa-html5"></i>
+                        <i class="fa-brands fa-figma"></i>
                         <span>Figma</span>
                     </div>
                     <div class="skills__icon">
-                        <i class="fab fa-html5"></i>
-                        <span>HTML</span>
+                        <i class="fa-brands fa-java"></i>
+                        <span>JAVA</span>
                     </div>
         </section>
-        <section id="projetos" class="projetos"></section>
-        <section id="contato" class="contato"></section>
+        <section id="projetos" class="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="#" class="card" >
+                    <img src="./css/img/Headphone.png" alt="headphone">
+                </a> 
+                <a href="#" class="card" >
+                    <img src="./css/img/pikachu.png" alt="headphone">
+                </a> 
+                <a href="#" class="card" >
+                    <img src="./css/img/tenis.png" alt="headphone">
+                </a> 
+                <a href="#" class="card" >
+                    <img src="./css/img/natureza.png" alt="headphone">
+                </a> 
+                <a href="#" class="card" >
+                    <img src="./css/img/bolo.png" alt="headphone">
+                </a> 
+                <a href="#" class="card" >
+                    <img src="./css/img/marvel.png" alt="headphone">
+                </a> 
+            </div>
+        </section>
+        <section id="contato" class="contato">
+
+            <h2 class="section-title">Contato</h2>
+
+            <ul class="contato-container" >
+
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 4747-4292</span>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="contato-item">
+                            <i class="far fa-envelope"></i>
+                            <span>Gustavo326@gmail.com</span>
+                        </div>
+                    </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua Estrada do Furquim , 120 Centro Cotia.</span>
+                    </div>
+                </li>  
+            </ul>
+    
+            <ul class="social-container">
+                <li class="social-item">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-linkedin"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-facebook-messenger"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-whatsapp"></i>
+                </li>
+                
+            </ul>
+ 
+            <ul class="link-container">
+                <li>
+                  <h3 class="link-title">Liks</h3>
+                </li>
+                <li>
+                    <a href="#home">Home</h3>
+                </li>
+                <li>
+                    <a href="#sobre-min">Sobre-mim</h3>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</h3>
+                </li>
+                <li>
+                    <a href="#contato">Contato</h3>
+                </li>
+
+            </ul>
+
+        </section>
+        
     </main>
-    <footer>footer</footer>
+    <footer>Todos os direito reservados|20022| Deselvolvido por : GustavoHenrique</footer>
     
 </body>
 </html>
