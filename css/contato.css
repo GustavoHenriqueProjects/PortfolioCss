@@ -56,3 +56,13 @@
     color: var(--primary-color);
     transition: color .7s;
 }
+
+@media (max-width: 960px){
+    .contato{
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
