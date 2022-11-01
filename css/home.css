@@ -43,6 +43,10 @@
        align-items: center;
     }
 
+    .logo{
+        font-size: 1.3rem;
+    }
+
     .home__text{
         font-size: 1.2em;
     }
