@@ -93,6 +93,7 @@ footer {
 @media (max-width: 640px) {
 
     header {
+        max-width: 520px;
 
     }
 

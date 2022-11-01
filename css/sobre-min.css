@@ -102,4 +102,23 @@
     .skills__icons{
         transform: translate(+15%);/*Posiciona o elemento na Horizontal*/
     }
+
+    @media (max-width:640px){
+        .sobre-min{
+            height: 270vh;
+        }
+
+        .description{
+            width: 95vw;
+        }
+
+        .skills__icons{
+            width: 70%;
+            height: 70%;
+        }
+
+        .skills__icons{
+            transform: translate(+5%);
+        }
+    }
 }
