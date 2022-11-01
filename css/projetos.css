@@ -63,7 +63,7 @@
 
     @media(max-width:640px){
         .projetos{
-            height: 200vh;
+            height: 210vh;
         }
 
         .card-container{
