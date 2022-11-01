@@ -131,5 +131,11 @@
             margin-left: 15px;
             font-size: 2.5rem;
         }
+
+        .skills__icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
