@@ -26,10 +26,29 @@
     }
 }
 
-@media (max-width: 660px){
+@media (max-width: 640px){
     .home{
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
+       
     }
+
+    .Conteudo-texto{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .home__text{
+        font-size: 1.2em;
+    }
+
+    .home__name{
+        font-size: 2em;
+    }
+
+    
 }

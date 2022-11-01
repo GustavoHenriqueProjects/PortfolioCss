@@ -4,6 +4,10 @@
     font-size: 1.25rem;
 }
 
+.menu-bars{
+    display: none;
+}
+
 .menu li{
     border-bottom: 4px solid transparent;
     transition: border-color .5s;
@@ -11,4 +15,15 @@
 
 .menu li:hover{
     border-color: var(--primary-color);
+}
+
+@media(max-width:640px){
+    @media(max-width:640px){
+      .menu-bars{
+          display: flex;
+          margin-top: 20px;
+          width: 40px;
+          height: 40px;
+      }
+    }
 }

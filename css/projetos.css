@@ -63,13 +63,13 @@
 
     @media(max-width:640px){
         .projetos{
-            height: 130vh;
+            height: 200vh;
         }
 
         .card-container{
             display: flex;
             justify-content: center;
-            transform: translate(+20%);
+            transform: translate(+2%);
             
         }
         .card-imagem{
