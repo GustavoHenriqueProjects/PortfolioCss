@@ -63,11 +63,18 @@
 
     @media(max-width:640px){
         .projetos{
-            height: 190vh;
+            height: 130vh;
+        }
+
+        .card-container{
+            display: flex;
+            justify-content: center;
+            transform: translate(+20%);
+            
         }
         .card-imagem{
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            height: 100%;
         }
     }
 }
