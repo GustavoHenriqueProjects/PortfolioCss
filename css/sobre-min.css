@@ -83,11 +83,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 167vh;
+        height: auto;/*Altura se iquala de acordo com o conteudo*/
     }
 
     .description{
-        height: 120vh;
+        height: auto;
     }
 
     .skills{
@@ -105,11 +105,11 @@
 
     @media (max-width:640px){
         .sobre-min{
-            height: 140vh;
+            height: auto;/*Autura se iquala de acordo com o conteudo*/
         }
 
         .description{
-            width: 95vw;
+            width: auto;
         }
 
         .skills__icons{
